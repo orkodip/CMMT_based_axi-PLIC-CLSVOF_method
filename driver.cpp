@@ -11,7 +11,7 @@
 #define cc_NRBS 1e-16
 #define TRUNC 1e-5
 #define SMALL 1e-8
-#define TOL 1e-6	//convergence criteria for FDQGMRES solver
+#define TOL 1e-6	//convergence criteria for the iterative solver
 using namespace std;
 int LC=1;	//loop condition
 void control(int n)	//signal control function
@@ -28,6 +28,7 @@ const double RADIUS=3.0,HEIGHT=6.0;	//domain size
 #include "mbase.cpp"
 #include "GMG2.cpp"
 #include "MG_FDQGMRES.cpp"
+//#include "MG_BICGSTAB.cpp"
 #include "axi_ivf_ell.cpp"
 #include "clsvof.cpp"
 #include "NS_g.cpp"
