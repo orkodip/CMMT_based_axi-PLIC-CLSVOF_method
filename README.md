@@ -1,6 +1,10 @@
 # CMMT_based_axi-PLIC-CLSVOF_method
 This repository contain the codes (written in C++) for PLIC scheme-based CLSVOF method in axisymmetric cylindrical coordinate system. Finite Volume Method is used to discretize the governing equations.
 
+The computational results are published in the journal Physics of Fluids:
+
+Mookherjee, O., Pramanik, S. and Sharma, A., 2025. Coalescence of a compound drop with a simple drop. Physics of Fluids, 37(10).
+
 # Software requirements
 This solver needs:
 
